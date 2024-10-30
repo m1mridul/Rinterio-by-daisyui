@@ -19,12 +19,17 @@
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
+
+        .navbar-gradient {
+            background: linear-gradient(0deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+        }
     </style>
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto w-3/4">
-        <div class="navbar bg-base-100">
+    <header class="container mx-auto w-3/4 ">
+        <div class="navbar bg-base-100 navbar-gradient">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -45,12 +50,13 @@
                 </div>
 
                 <a class="btn btn-ghost text-2xl font-bold">
-                    <img class="w-4 bg-[#ABEF5F] p-1 rounded-full inline-flex items-center justify-center text-white" src="./assets/up-right-arrow.png" alt="">
+                    <img class="w-6 bg-[#ABEF5F] p-1 rounded-full inline-flex items-center justify-center text-white"
+                        src="./assets/up-right-arrow.png" alt="">
                     Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1  font-[500]">
-                    <li class="hover:text-red-500 duration-300 easy-in-out"><a>Home</a></li>
+                    <li class="hover:text-red-500 duration-300 font-extrabold easy-in-out"><a>Home</a></li>
                     <li class="hover:text-red-500 duration-300 easy-in-out"><a>Services</a></li>
                     <li class="hover:text-red-500 duration-300 easy-in-out"><a>Portfolio</a></li>
                     <li class="hover:text-red-500 duration-300 easy-in-out"><a>Blogs</a></li>
@@ -58,17 +64,65 @@
                 </ul>
             </div>
             <div class="navbar-end flex space-x-5 ">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping bg-white border-2 rounded-2xl"></i>
+                <i class="fa-solid fa-magnifying-glass border-2 border-white rounded-full p-2 bg-[#FFFFFF]"></i>
+                <i class="fa-solid fa-cart-shopping border-2 border-white rounded-full p-2 bg-[#FFFFFF] "></i>
                 <a class="btn  bg-[#ABEF5F] rounded-full  text-lg">
                     <img class="w-4 rounded-full " src="./assets/up-right-arrow.png" alt="">
                     Book Consult</a>
             </div>
         </div>
-
+        <!-- banner section starts here -->
+        <section class="w-[1170px] h-[712px] mt-10 mb-[-100px]">
+            <div class="flex items-center justify-center mb-4">
+                <img class="w-[500px] h-[250px] object-cover rounded-xl" src="./assets/banner.png" alt="">
+            </div>
+            <div class="items-center justify-start text-center">
+                <h1 class="font-extrabold text-6xl">A barn house of this design has a <br>striking appearance</h1>
+                <p class="font-lg text-sm mt-4">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the
+                    space with natural light.</p>
+                <a class="btn  bg-[#ABEF5F80] rounded-full mt-4  text-lg">
+                    <img class="w-4 rounded-full bg-[#ABEF5F] rounded-full " src="./assets/up-right-arrow.png" alt="">
+                    View Details</a>
+            </div>
+        </section>
+        <!-- banner section starts here -->
     </header>
     <main>
+        <section class="w-full h-[712px] bg-[#E9E9E9]">
+            <div class="container w-3/4 mx-auto">
+                <div>
+                    <img src="./assets/Vector.png" alt="">
+                </div>
+                <div>
+                    <p class="bg-white rounded-xl w-[100px] ml-20 mt-4 h-[21px]">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        About Us
+                    </p>
+                </div>
+                <div class="flex justify-between">
+                    <div class="mt-9">
+                        <h1 class="font-extrabold text-5xl">We design thoughtful, <br> liveable spaces</h1>
+                        <p class="mt-5 font-normal text-sm">The barn house captivates with its blend of rustic charm and
+                            <br>
+                            modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
+                        <div>
+                            <div>
+                                <img src="./assets/commercial.png" alt="">
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/Rectangle.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer>
 
